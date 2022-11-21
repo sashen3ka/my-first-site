@@ -1,0 +1,116 @@
+
+
+#arch {
+  left: 0;
+  float: left;
+  position: fixed;
+  bottom: 10px;
+}
+
+body {
+
+  font-family:'DejaVu Sans Mono, monospace';
+  font-weight: 200;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+header {
+  font-size: 20px;
+  background-color: black;
+}
+
+
+button {
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: -10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 23px;
+  background-color: #000000;
+  color:rgb(219, 216, 216);
+  border-style: none;
+  text-decoration: overline 1px;
+}
+
+
+nav {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 170px;
+  border-bottom: overline white;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);;
+  margin-left: 0;
+  margin-right: -10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: -10px;
+  font-size: 23px;
+  border-style: none;
+  display: block;
+}
+
+nav:hover .dropdown-content {display: block;}
+
+
+h1 {
+font-size: 50px;
+text-decoration: overline;
+color: rgb(20, 20, 20);
+margin-top: 250px;
+margin-bottom: -25px;
+padding-bottom: 0;
+font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(50, 50, 50);
+
+}
+
+#job {
+  text-align: center;
+  font-size: 33px;
+  color: rgb(50, 50, 50);
+  margin-bottom: -25px;
+  margin-top: 3x0px;
+  padding-bottom: 10px;
+
+}
+
+
+section {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding-bottom: -20px;
+}
+
+
+
+p {
+  font-size: 30px;
+  color: rgb(91, 91, 91);
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+
+
