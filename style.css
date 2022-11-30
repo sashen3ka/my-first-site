@@ -1,6 +1,8 @@
 
 
 #arch {
+  max-width: 100%;
+  height: auto;
   left: 0;
   float: left;
   position: fixed;
